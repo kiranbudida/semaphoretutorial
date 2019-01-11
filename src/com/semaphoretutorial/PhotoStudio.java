@@ -7,7 +7,7 @@ import java.util.concurrent.Semaphore;
 public class PhotoStudio {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		Semaphore studio =new Semaphore(2);
 		ExecutorService executor=Executors.newFixedThreadPool(2);
